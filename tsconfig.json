@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {                       
+    "lib": ["dom", "dom.iterable", "esnext"],                                   
+    "allowJs": true,  // pode ter arquivos javascript e typescript               
+    "jsx": "react-jsx",  // está utilizando o jsx do react, está sendo escrito HTML dentro do JS                       
+    "noEmit": true, // caso execute o build                             
+    "strict": true, // modo de lidar com erros dentro do JS                                
+    "moduleResolution": "node", 
+    "resolveJsonModule": true, // importar arquivos json
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,     
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                         
+    "forceConsistentCasingInFileNames": true     
+  },
+  "include": ["src"] // todo o nosso código está na pasta src
+}
